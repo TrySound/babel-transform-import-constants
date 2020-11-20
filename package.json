@@ -1,0 +1,15 @@
+{
+  "name": "babel-transform-import-constants",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "repro": "node ./import-constants.test.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "esm": "^3.2.25",
+    "prettier": "^2.2.0",
+    "uvu": "^0.5.0-next.0"
+  }
+}
