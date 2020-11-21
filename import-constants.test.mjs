@@ -1,9 +1,10 @@
 import path from "path";
-import { test } from "uvu";
-import * as assert from "uvu/assert";
+// import { test } from "uvu";
+// import * as assert from "uvu/assert";
 import babel from "@babel/core";
 import importConstants from "./import-constants.js";
 
+/*
 const transform = (code, options) => {
   const result = babel.transformSync(code, {
     filename: path.resolve("./import-constants.test.js"),
@@ -147,3 +148,4 @@ test("ignores non-constants imports", () => {
 });
 
 test.run();
+*/
